@@ -2,14 +2,9 @@ pipeline {
     agent any
 
     stages {
-        stage('Build') {
+        stage('Login Feature Build') {
             steps {
-                echo "Building main branch..."
-            }
-        }
-        stage('Test') {
-            steps {
-                echo "Running tests on main branch..."
+                echo "Building Login Feature..."
             }
         }
     }
