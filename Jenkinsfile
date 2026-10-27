@@ -4,12 +4,12 @@ pipeline {
     stages {
         stage('Build') {
             steps {
-                echo "Building main branch..."
+                echo "Building main branch... adding profile feature"
             }
         }
         stage('Test') {
             steps {
-                echo "Running tests on main branch..."
+                echo "Running tests on main branch... adding profile feature"
             }
         }
     }
